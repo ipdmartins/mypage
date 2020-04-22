@@ -22,8 +22,25 @@ export const Container = styled.div`
         font-size: 20px;
         display: flex;
         justify-content: center;
-        
     }
+    .about{
+        text-decoration:none;
+    }
+    .portfolio{
+        text-decoration:none;
+    }
+    .work {
+        text-decoration:none;
+    }
+
+    .education {
+        text-decoration:none;
+    }
+    
+    .skills{
+        text-decoration:none;
+    }
+
     .ellipse p:hover{
         font-size: 24px;
         font-weight: bold;
