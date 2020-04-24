@@ -13,15 +13,6 @@ export default function Portfolio() {
     }
     //using styled-components
     return (
-        <div>
-            <section className="form">
-                <img src={""} alt='be the hero' />
-                <form onSubmit={handlePortfolio}>
-
-                </form>
-            </section>
-            <img src={""} alt="Heroes" />
-        </div>
-
+        <h1>Portfolio</h1>
     );
 }

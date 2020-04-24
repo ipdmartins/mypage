@@ -13,15 +13,6 @@ export default function Work() {
     }
     //using styled-components
     return (
-        <div>
-            <section className="form">
-                <img src={""} alt='be the hero' />
-                <form onSubmit={handleWork}>
-
-                </form>
-            </section>
-            <img src={""} alt="Heroes" />
-        </div>
-
+        <h1>WORK</h1>
     );
 }

@@ -6,7 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Work from './pages/Work';
 import Education from './pages/Education';
 import Skills from './pages/Skills';
-import Home from './pages/Home';
+import Email from './pages/Email';
 
 //Switch faz com que uma rota seja acessada por vez. 'exact' serve para buscar a rota completa
 //e não abreviar a buscar só com a barra.
@@ -19,6 +19,7 @@ export default function Routes() {
                 <Route path='/Work' component={Work} />
                 <Route path='/Education' component={Education} />
                 <Route path='/Skills' component={Skills} />
+                <Route path='/Email' component={Email} />
 
                 {/* <Route path='/' exact component={Home} />
                  */}

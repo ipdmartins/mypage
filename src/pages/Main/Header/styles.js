@@ -7,25 +7,16 @@ export const Container = styled.div`
     margin: 0;
     background-color: #DDDCE5;
     font-family: roboto, sans-serif;
+    padding-top:5px;
 
-    div, p, Link{
-        display: inline-block;
-    }
-    #icon:hover{
-        opacity: 0.5;
-    }
-    .namesDiv{
-        margin-left: 20%;
-    }
-    .iconsDiv{
-        float: right;
-        margin-right: 8%;
-        margin-top:5px;
-    }
     p{
+        display: inline-block;
         font-size: 54px;
         font-weight: bold;
         justify-content:space-between;
+    }
+    div{
+        display: inline-block;
     }
     .igor{
         color: black;
@@ -35,7 +26,6 @@ export const Container = styled.div`
         margin-left: 20px;
     }
     .instagram{
-        display: inline-block;
         text-align: center;
         border-radius: 40px;
         color: #fff;
@@ -44,11 +34,21 @@ export const Container = styled.div`
         box-shadow: 0px 3px 10px rgba(0,0,0,.25);
         margin-right: 20px;
     }
+    .namesDiv{
+        margin-left: 20%;
+    }
+    .iconsDiv{
+        float: right;
+        margin-right: 5%;
+    }
     .github{
-        margin-right: 20px;
+        margin-right: 23px;
     }
     .linkedin{
-        margin-right: 20px;
+        margin-right: 23px;
+    }
+    #icon:hover{
+        opacity: 0.5;
     }
 
 `;

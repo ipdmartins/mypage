@@ -13,15 +13,6 @@ export default function Skills() {
     }
     //using styled-components
     return (
-        <div>
-            <section className="form">
-                <img src={""} alt='be the hero' />
-                <form onSubmit={handleSkills}>
-
-                </form>
-            </section>
-            <img src={""} alt="Heroes" />
-        </div>
-
+        <h1>SKILLS</h1>
     );
 }

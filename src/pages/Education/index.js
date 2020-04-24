@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import Main from '../Main';
+import { Container } from './styles';
 
 export default function Education() {
     const [id, setId] = useState('');
@@ -13,15 +15,14 @@ export default function Education() {
     }
     //using styled-components
     return (
-        <div>
-            <section className="form">
-                <img src={""} alt='be the hero' />
-                <form onSubmit={handleEducation}>
 
-                </form>
-            </section>
-            <img src={""} alt="Heroes" />
-        </div>
+
+        <Container>
+            <h1>EDUCATION</h1>
+
+        </Container>
+
+
 
     );
 }

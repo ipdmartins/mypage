@@ -42,8 +42,7 @@ export const Container = styled.div`
     }
 
     .ellipse p:hover{
-        font-size: 24px;
-        font-weight: bold;
+        font-size: 22px;
     }
 `;
 export const Title = styled.h1`

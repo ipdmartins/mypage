@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SideMenu from './SideMenu';
 import Header from './Header';
-import { Title, Container } from './styles';
+import { Container } from './styles';
 
 export default function Main() {
     const [id, setId] = useState('');
@@ -19,8 +19,9 @@ export default function Main() {
         <Container>
             <SideMenu />
             <Header />
-
         </Container>
+
+
 
     );
 }
