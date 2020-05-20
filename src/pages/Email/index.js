@@ -1,19 +1,11 @@
-import React, { useState } from 'react';
+import React from "react";
 
-export default function Home() {
-    const [id, setId] = useState('');
+import Layout from "../../components/Layout";
 
-    async function handleHome(e) {
-        e.preventDefault();//evita que a pagina seja carregada automaticamente
-        try {
-
-        } catch (error) {
-            alert('Falha no ...');
-        }
-    }
-    //using styled-components
-    return (
-        <h1>EMAIL</h1>
-
-    );
+export default function Email() {
+  return (
+    <Layout>
+      <h2>Email</h2>
+    </Layout>
+  );
 }
