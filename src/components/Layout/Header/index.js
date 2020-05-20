@@ -13,6 +13,7 @@ export default function Header() {
         </p>
       </div>
       <div className="iconsDiv">
+
         <a
           href="https://www.linkedin.com/in/ipdmartins/?locale=en_US"
           target="_blank"
@@ -40,21 +41,11 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram
-            className="instagram"
-            id="icon"
-            size={50}
-            color="#d6249f"
-          />
+          <FaInstagram className="instagram" id="icon" size={50} />
         </a>
 
         <Link to="/Email">
-          <AiOutlineMail
-            className="email"
-            id="icon"
-            size={50}
-            color="#716C6C"
-          />
+          <AiOutlineMail className="email" id="icon" size={50} color="#716C6C" />
         </Link>
       </div>
     </Container>

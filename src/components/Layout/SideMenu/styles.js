@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   flex-shrink: 0;
-  width: 250px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
   height: 100vh;
   background-color: #403cfc;
   display: flex;
   justify-content: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16%;
 
   .ellipse img {
     height: 175px;
@@ -53,7 +54,3 @@ export const Container = styled.div`
   }
 `;
 
-export const Title = styled.h1`
-  font-size: 32px;
-  margin-bottom: 32px;
-`;

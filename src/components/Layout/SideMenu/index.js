@@ -8,7 +8,7 @@ export default function SideMenu() {
     <Container>
       <div className="ellipse">
         <img src={logoImg} alt="my pic" />
-        <Link className="about" to="/">
+        <Link className="about" id='sublinks' to="/">
           <p>About</p>
         </Link>
         <Link className="portfolio" to="/Portfolio">
