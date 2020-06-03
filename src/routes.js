@@ -3,8 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Work from "./pages/Work";
-import Education from "./pages/Education";
+import Timeline from "./pages/Timeline";
 import Skills from "./pages/Skills";
 import Email from "./pages/Email";
 
@@ -18,8 +17,7 @@ export default function Routes() {
       <Switch>
         <Route path="/" exact component={About} />
         <Route path="/Portfolio" component={Portfolio} />
-        <Route path="/Work" component={Work} />
-        <Route path="/Education" component={Education} />
+        <Route path="/Timeline" component={Timeline} />
         <Route path="/Skills" component={Skills} />
         <Route path="/Email" component={Email} />
 

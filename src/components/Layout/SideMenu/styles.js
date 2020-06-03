@@ -18,12 +18,12 @@ export const Container = styled.div`
     width: 100%;
     border-radius: 50%;
     background-color: #3d9970;
-    margin-top: 3vh;
+    margin-top: 10vh;
   }
 
   .ellipse p {
     color: #ffffff;
-    margin-top: 25px;
+    margin-top: 30px;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -37,11 +37,7 @@ export const Container = styled.div`
     text-decoration: none;
   }
 
-  .work {
-    text-decoration: none;
-  }
-
-  .education {
+  .timeline {
     text-decoration: none;
   }
 

@@ -10,6 +10,7 @@ export const Container = styled.div`
   width: calc(100vw - 16%);
   margin-left: auto;
   height: 100%;
+
 `;
 
 export const Main = styled.main`

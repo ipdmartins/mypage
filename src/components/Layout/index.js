@@ -8,7 +8,9 @@ export default function Layout({ children }) {
     <Wrapper>
       <SideMenu />
       <Container>
+
         <Header />
+
         <Main>{children}</Main>
       </Container>
     </Wrapper>

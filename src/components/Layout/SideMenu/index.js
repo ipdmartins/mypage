@@ -11,14 +11,11 @@ export default function SideMenu() {
         <Link className="about" id='sublinks' to="/">
           <p>About</p>
         </Link>
+        <Link className="timeline" to="/Timeline">
+          <p>Timeline</p>
+        </Link>
         <Link className="portfolio" to="/Portfolio">
           <p>Portfolio</p>
-        </Link>
-        <Link className="work" to="/Work">
-          <p>Work Experience</p>
-        </Link>
-        <Link className="education" to="/Education">
-          <p>Education</p>
         </Link>
         <Link className="skills" to="/Skills">
           <p>Skills</p>

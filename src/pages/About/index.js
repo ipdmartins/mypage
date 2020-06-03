@@ -32,8 +32,21 @@ const Container = styled.div`
     text-decoration-style: double;
     margin: 5vh 0 3vh 0;
   }
+  
 `;
 
+const Youtubeparent = styled.div`
+    text-align:center;
+    margin-top:40vh;
+    
+    .divCode{
+      float: left;
+    }
+  .youtube{
+    display:inline-block;
+
+  }
+`;
 export default function About() {
   function onReady(event) {
     // access to player in all event handlers via event.target
@@ -87,9 +100,20 @@ export default function About() {
             <p>Stock market studies and practices.</p>
           </div>
         </div>
-
-        <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={onReady} />;
       </Container>
+
+      <Youtubeparent>
+        {/* <div>
+          <h3>Code</h3>
+          <input />
+          <button>Ok</button>
+        </div> */}
+
+        <div className="youtube">
+          <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={onReady} />;
+        </div >
+      </Youtubeparent>
+
     </Layout>
   );
 }
