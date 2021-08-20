@@ -31,14 +31,13 @@
 <p>
 	## Learning more about a Javascript stack ##
 	
-	<ul>
+	<ol>
 		<li>To learn NodeJS, check out the [Node documentation](https://nodejs.org/en/docs/).</li>
 		<li>To learn TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/docs/).</li>
 		<li>To learn React, check out the [React documentation](https://reactjs.org/).</li>
 		<li>To learn React Native, check out the [Native documentation](https://reactnative.dev/docs/getting-started).</li>
-	</ul>
+	</ol>
 </p>
-
 <p>
 	Ladies and gentlemen, thank you and be happy!!!!!
 </p
