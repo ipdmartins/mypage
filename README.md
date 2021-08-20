@@ -26,18 +26,21 @@
 			**How to Contribute**</br>
 			Whether you're helping to fix bugs, improve the docs, or spread the word, I'd appreciate to have you as part of it.
 		</li>
+    <li>
+      To learn NodeJS, check out the <a href="https://nodejs.org/en/docs/">[Node documentation]</a>
+    </li>
+    <li>
+      To learn TypeScript, check out the <a href="https://www.typescriptlang.org/docs/">[TypeScript documentation]</a>
+    </li>
+    <li>
+      To learn ReactJS, check out the <a href="https://reactjs.org/">[ReactJS documentation]</a>
+    </li>
+    <li>
+      To learn React Native, check out the <a href="https://reactnative.dev/docs/getting-started">[Native documentation]</a>
+    </li>
 	</ol>
+  
+  Ladies and gentlemen, thank you and be happy!!!!!
 </p>
-<p>
-	## Learning more about a Javascript stack ##
-	
-		To learn NodeJS, check out the <a href="https://nodejs.org/en/docs/">[Node documentation]</a>
-		To learn TypeScript, check out the <a href="https://www.typescriptlang.org/docs/">[TypeScript documentation]</a>
-		To learn ReactJS, check out the <a href="https://reactjs.org/">[ReactJS documentation]</a>
-		To learn React Native, check out the <a href="https://reactnative.dev/docs/getting-started">[Native documentation]</a>
-</p>
-<p>
-	Ladies and gentlemen, thank you and be happy!!!!!
-</p
 
 
