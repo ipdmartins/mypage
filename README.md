@@ -31,12 +31,10 @@
 <p>
 	## Learning more about a Javascript stack ##
 	
-	<ul>
-		<li>To learn NodeJS, check out the <a href="https://nodejs.org/en/docs/">[Node documentation]</a></li>
-		<li>To learn TypeScript, check out the <a href="https://www.typescriptlang.org/docs/">[TypeScript documentation]</a></li>
-		<li>To learn ReactJS, check out the <a href="https://reactjs.org/">[ReactJS documentation]</a></li>	
-		<li>To learn React Native, check out the <a href="https://reactnative.dev/docs/getting-started">[Native documentation]</a></li>
-	</ul>
+		To learn NodeJS, check out the <a href="https://nodejs.org/en/docs/">[Node documentation]</a>
+		To learn TypeScript, check out the <a href="https://www.typescriptlang.org/docs/">[TypeScript documentation]</a>
+		To learn ReactJS, check out the <a href="https://reactjs.org/">[ReactJS documentation]</a>
+		To learn React Native, check out the <a href="https://reactnative.dev/docs/getting-started">[Native documentation]</a>
 </p>
 <p>
 	Ladies and gentlemen, thank you and be happy!!!!!
